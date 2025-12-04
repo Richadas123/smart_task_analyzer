@@ -3,7 +3,8 @@
 const tasksLocal = [];
 
 // Base URL for API endpoints
-const apiBase = "http://127.0.0.1:8000/api/tasks";
+const apiBase = "https://smart-task-analyzer-1-nu1z.onrender.com/api/tasks";
+
 
 // Tracks whether a circular dependency was detected
 let globalHasCycle = false;
